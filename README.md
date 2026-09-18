@@ -1,78 +1,87 @@
-# Tic Tac Toe Game 🎮
+# ❌⭕ Tic Tac Toe
 
-A simple, responsive Tic Tac Toe game built using **HTML**, **CSS**, and **JavaScript**. This project lets two players compete on the same device, with real-time win/draw detection and an easy way to restart the game.
+A classic Tic Tac Toe game built with **HTML**, **CSS**, and **JavaScript**. Play against a friend on the same device, take turns placing X's and O's, and reset the board anytime with a single click.
 
-## 🚀 Live Demo
+## 🔗 Live Demo
 
-_Add your live demo link here (e.g., GitHub Pages, Netlify, Vercel) once deployed._
+> Add your GitHub Pages / deployment link here once hosted:
+> `https://umaima8920.github.io/Tic-Tac-Toe-Game/`
 
-## 📋 Features
+## 📸 Preview
 
-- 🎮 **Two-Player Mode** — Play against a friend on the same device
-- 🏆 **Win/Draw Detection** — Automatically detects a win, loss, or draw and displays a message
-- 🔄 **Restart Button** — Reset the board and start a new game anytime
-- 📱 **Responsive Design** — Works smoothly on desktop, tablet, and mobile screens
+![Game Preview](screenshot.png)
 
-## 🛠️ Built With
+*Add the screenshot file (named `screenshot.png`) to your repo's root folder so it displays here.*
 
-- **HTML5** — Structure and layout of the game
-- **CSS3** — Styling and responsive design
-- **JavaScript** — Game logic, event handling, and win/draw detection
+## 🚀 Features
+
+- Classic 3x3 Tic Tac Toe gameplay for two players
+- Clean grid layout with a soft pastel color scheme
+- Color-coded moves — blue **O** and red **X** for easy tracking
+- One-click **Reset Game** button to start a new round instantly
+- Clean UI built with pure CSS (no external frameworks)
+- Lightweight — built with vanilla JavaScript, no dependencies
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5      | Structure and layout of the game |
+| CSS3       | Styling, layout, and responsiveness |
+| JavaScript (ES6) | Game logic, event handling, and DOM manipulation |
 
 ## 📂 Project Structure
 
 ```
 Tic-Tac-Toe-Game/
+│
 ├── index.html      # Main HTML file
 ├── style.css       # Styling for the game
 ├── script.js       # Game logic
 └── README.md       # Project documentation
 ```
 
-## 💻 Getting Started
+> Update the file names/structure above if yours differ.
+
+## ⚙️ How It Works
+
+1. Players take turns clicking an empty cell on the 3x3 grid.
+2. Each turn alternates between **X** and **O**.
+3. The game checks after every move for three matching symbols in a row, column, or diagonal.
+4. Once a player wins (or the board fills up with no winner), the result is shown.
+5. Click **Reset Game** to clear the board and start a new round.
+
+## ▶️ Getting Started
 
 ### Prerequisites
+No installation or dependencies required — just a modern web browser.
 
-You just need a web browser — no additional tools or installations required.
+### Run Locally
 
-### Installation
-
-1. Clone the repository
+1. Clone the repository:
    ```bash
    git clone https://github.com/umaima8920/Tic-Tac-Toe-Game.git
    ```
-2. Navigate to the project folder
+2. Navigate into the project folder:
    ```bash
    cd Tic-Tac-Toe-Game
    ```
-3. Open `index.html` in your browser
-   ```bash
-   open index.html
-   ```
-   (or simply double-click the file)
+3. Open `index.html` in your browser:
+   - Double-click the file, or
+   - Use a live server extension (e.g., VS Code "Live Server") for auto-reload.
 
-## 🎯 How to Play
+## 🎯 Future Improvements
 
-1. The game starts with Player X.
-2. Click on any empty cell to place your mark (X or O).
-3. Players take turns until one player gets three marks in a row (horizontally, vertically, or diagonally).
-4. The game displays a win message for the winning player, or a draw message if the board fills up with no winner.
-5. Click the **Restart** button to reset the board and play again.
-
-## 📸 Screenshots
-
-_Add a screenshot or GIF of your game here to showcase the UI._
-
-## 🔮 Future Improvements
-
-- Add a single-player mode with AI opponent
-- Add score tracking across multiple rounds
-- Add sound effects and animations
-- Add light/dark theme toggle
+- Add a scoreboard to track wins across multiple rounds
+- Add a single-player mode against the computer (AI opponent)
+- Highlight the winning row/column/diagonal
+- Add sound effects for moves and wins
+- Add a dark mode toggle
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/umaima8920/Tic-Tac-Toe-Game/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/umaima8920/Tic-Tac-Toe-Game/issues) or submit a pull request.
 
 ## 📄 License
 
@@ -81,7 +90,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Umaima Malik**
-
 - GitHub: [@umaima8920](https://github.com/umaima8920)
 
 ---
