@@ -4,14 +4,11 @@ A classic Tic Tac Toe game built with **HTML**, **CSS**, and **JavaScript**. Pla
 
 ## 🔗 Live Demo
 
-> Add your GitHub Pages / deployment link here once hosted:
 > `https://umaima8920.github.io/Tic-Tac-Toe-Game/`
 
 ## 📸 Preview
 
 ![Game Preview](game_output.png)
-
-*Add the screenshot file (![alt text](game_output.png)`) to your repo's root folder so it displays here.*
 
 ## 🚀 Features
 
