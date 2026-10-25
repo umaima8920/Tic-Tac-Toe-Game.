@@ -9,9 +9,9 @@ A classic Tic Tac Toe game built with **HTML**, **CSS**, and **JavaScript**. Pla
 
 ## 📸 Preview
 
-![Game Preview](screenshot.png)
+![Game Preview](game_output.png)
 
-*Add the screenshot file (named `screenshot.png`) to your repo's root folder so it displays here.*
+*Add the screenshot file (![alt text](game_output.png)`) to your repo's root folder so it displays here.*
 
 ## 🚀 Features
 
